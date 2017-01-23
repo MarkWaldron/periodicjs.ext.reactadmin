@@ -17,7 +17,13 @@ export default {
       component: 'MenuAppLink',
       props: {
         href: '/documentation',
-        label: 'Customers'
+        label: 'Documentation'
+      }
+    }, {
+      component: 'MenuAppLink',
+      props: {
+        href: '/applications',
+        label: 'Applications'
       }
     }]
   }, {

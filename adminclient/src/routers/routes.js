@@ -28,23 +28,26 @@ function getRoutes(appContainer) {
     },
   }, {
     path: 'home',
-    onEnter: requireAuth,
+    // onEnter: requireAuth,
     component: containers.PageComponents.HomePage,
   }, {
     path: 'documentation',
-    onEnter: requireAuth,
+    // onEnter: requireAuth,
     component: containers.PageComponents.DocumentationPage,
+  }, {
+    path: 'applications',
+    component: containers.PageComponents.ApplicationsPage,
   }, {
     path: 'blog',
     component: containers.PageComponents.BlogPage,
-    onEnter: requireAuth,
+    // onEnter: requireAuth,
     indexRoute: {
-      onEnter: requireAuth,
+      // onEnter: requireAuth,
       component: containers.PageComponents.BlogIndex,
     },
     childRoutes: [ {
       path: ':id',
-      onEnter: requireAuth,
+      // onEnter: requireAuth,
       component: containers.PageComponents.BlogItem,
     }]
   }, {
