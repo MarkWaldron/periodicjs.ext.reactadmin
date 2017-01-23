@@ -38,6 +38,9 @@ function getRoutes(appContainer) {
     path: 'applications',
     component: containers.PageComponents.ApplicationsPage,
   }, {
+      path: 'customers',
+      component: containers.PageComponents.CustomersPage,  
+  }, {
     path: 'blog',
     component: containers.PageComponents.BlogPage,
     // onEnter: requireAuth,

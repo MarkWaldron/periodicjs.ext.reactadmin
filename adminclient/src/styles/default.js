@@ -1,7 +1,11 @@
 const defaultStyles = {
   mainContainer: {
-    marginTop:52,
+    marginTop:60,
     marginBottom:52,
+  },
+  detailsSummary: {
+    height: 25,
+    backgroundColor: '#BCD6ED'
   },
   fixedTop: {
     position: 'fixed',// !important,

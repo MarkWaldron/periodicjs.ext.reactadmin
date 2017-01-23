@@ -22,6 +22,12 @@ export default {
     }, {
       component: 'MenuAppLink',
       props: {
+        href: '/customers',
+        label: 'Customers'
+      }
+    }, {
+      component: 'MenuAppLink',
+      props: {
         href: '/applications',
         label: 'Applications'
       }

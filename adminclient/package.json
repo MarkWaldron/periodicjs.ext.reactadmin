@@ -22,7 +22,8 @@
   "dependencies": {
     "node-fetch": "^1.6.3",
     "react": "15.3.2",
-    "react-dom": "15.3.2"
+    "react-dom": "15.3.2",
+    "superagent": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
